@@ -40,8 +40,8 @@ This package contains the Kong API Gateway
 %define user kong
 
 %pre
-/usr/bin/getent group %{user} || /usr/sbin/groupadd -r %{user}
-/usr/bin/getent passwd %{user} || /usr/sbin/useradd -r -d /usr/bin/kong -s /sbin/nologin %{user}
+# /usr/bin/getent group %{user} || /usr/sbin/groupadd -r %{user}
+/usr/bin/getent passwd %{user} || /usr/sbin/useradd -r -d /usr/local/kong %{user}
 
 %post
 /sbin/chkconfig --add %{name}
