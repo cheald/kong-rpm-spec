@@ -178,7 +178,7 @@ rm -rf %{buildroot}
 %attr(755, root, root) %{_bindir}/kong
 %attr(755, %{user}, %{user}) %{target}/kong.lua
 %attr(755, root, root) /etc/init.d/kong
-/etc/sysconfig/kong
+%config(noreplace) /etc/sysconfig/kong
 
 %changelog
 * Tue Feb 14 2017 Chris Heald
