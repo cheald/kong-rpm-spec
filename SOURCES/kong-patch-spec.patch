@@ -1,0 +1,15 @@
+diff -ru kong-0e7c8f3840d0bc6461584ff8dee1d75402ab9989/kong-0.10.0rc3-0.rockspec kong-0e7c8f3840d0bc6461584ff8dee1d75402ab9989-patched/kong-0.10.0rc3-0.rockspec
+--- kong-0e7c8f3840d0bc6461584ff8dee1d75402ab9989/kong-0.10.0rc3-0.rockspec	2017-02-14 00:55:19.000000000 +0000
++++ kong-0e7c8f3840d0bc6461584ff8dee1d75402ab9989-patched/kong-0.10.0rc3-0.rockspec	2017-02-14 06:33:54.263024468 +0000
+@@ -3,7 +3,7 @@
+ supported_platforms = {"linux", "macosx"}
+ source = {
+   url = "git://github.com/Mashape/kong",
+-  tag = "0.10.0rc3"
++  branch = "release/0.10.0"
+ }
+ description = {
+   summary = "Kong is a scalable and customizable API Management Layer built on top of Nginx.",
+Only in kong-0e7c8f3840d0bc6461584ff8dee1d75402ab9989/: kong-0.10.0rc3-0.rockspec.orig
+Only in kong-0e7c8f3840d0bc6461584ff8dee1d75402ab9989/: kong-0.10.0rc3-0.rockspec.rej
+Only in kong-0e7c8f3840d0bc6461584ff8dee1d75402ab9989-patched/: kong-0.10.0rc3-0.src.rock
